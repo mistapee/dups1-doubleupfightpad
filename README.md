@@ -1,4 +1,7 @@
+3D_dups2025_2025-12-24 (1).png
 the bapzDUPone - very easy DIY, less than £8 all-in (if you're a fellow brit i've probably got 5+ spare of each controller project on hand to get rid of)
+
+
   >>> other GP2040-CE stuffs: Sound Voltex Pocket Zero >> Hand Pump (it up!) MX dubs >> Pop'n Music Pico >> Pop'n 1U Zero - even smaller but still very capable, in single board, single board choc low profile and dual layer LED 
 
 WASD pad, with additional A to the right of the WASD (where some fight pads have jump). i wanted both not one or the other.
@@ -19,6 +22,7 @@ i did however put quite a lot of time testing layouts as most other designs i fo
 
 
 
+<img width="2160" height="1308" alt="3D_dups2025_2025-12-23" src="https://github.com/user-attachments/assets/24a744e5-4899-4750-8dab-e0b22f853927" />
 
 
 -----
@@ -27,7 +31,7 @@ the waffle, and potentially useful points
 over the long summer break i decided to put some time in to being ready to show the youth how it's done, randomly trying out leverless for the first time and very quickly mad much more expensive devices useless. eventually i hit a wall needing to throw a quarter or half circle on the d-pad just wasn't happening and despite tolerating it for quite a while i just couldn't get much further - i immediately progressed once i took delivery of these pcbs.
 i had a lot of Gateron Milky MX style keys that were taking up space, bags of 1U keycaps to get rid of, excess supply of Pico's and RP2040 zero's as making use of Ali Express and buying multiples ends up costing a quarter of the price of ordering singles locally.
 
-this happened to make a good project starter and after introducing the students to marvel vs capcom 2 on the dreamcast a few years ago 
+this happened to make a good project starter and after introducing the students to marvel vs capcom 2 on the dreamcast a few years ago i knew i had something that could work
 ------
 
 there's no drill holes/plate/case? uwotm8
