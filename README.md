@@ -1,7 +1,8 @@
 
-<img width="50%" height="50%" alt="3D_dups2025_2025-12-23" src="https://github.com/user-attachments/assets/24a744e5-4899-4750-8dab-e0b22f853927" />
+![dupphoto](https://github.com/user-attachments/assets/c11952a8-6f6c-47e8-bff8-19224cbe2f9d)
 
 the bapzDUPone - very easy DIY, less than £8 all-in (if you're a fellow brit i've probably got 5+ spare of each controller project on hand to get rid of)
+<img width="50%" height="50%" alt="3D_dups2025_2025-12-23" src="https://github.com/user-attachments/assets/24a744e5-4899-4750-8dab-e0b22f853927" />
 
 
   >>> other GP2040-CE stuffs: Sound Voltex Pocket Zero >> Hand Pump (it up!) MX dubs >> Pop'n Music Pico >> Pop'n 1U Zero - even smaller but still very capable, in single board, single board choc low profile and dual layer LED 
