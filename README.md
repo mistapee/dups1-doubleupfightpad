@@ -2,10 +2,10 @@
 ![dupphoto](https://github.com/user-attachments/assets/c11952a8-6f6c-47e8-bff8-19224cbe2f9d)
 
 the bapzDUPone - very easy DIY, less than £8 all-in (if you're a fellow brit i've probably got 5+ spare of each controller project on hand to get rid of)
+
+
+
 <img width="50%" height="50%" alt="3D_dups2025_2025-12-23" src="https://github.com/user-attachments/assets/24a744e5-4899-4750-8dab-e0b22f853927" />
-
-
-  >>> other GP2040-CE stuffs: Sound Voltex Pocket Zero >> Hand Pump (it up!) MX dubs >> Pop'n Music Pico >> Pop'n 1U Zero - even smaller but still very capable, in single board, single board choc low profile and dual layer LED 
 
 WASD pad, with additional A to the right of the WASD (where some fight pads have jump). i wanted both not one or the other.
 no turbo, no custom set ups, turn up and throw down.
@@ -16,6 +16,11 @@ a new customer on some services (like AllPCB) can get 20 of these PCBs and sent 
 GP2040-CE Firmware: use the RP2040 Zero (Waveshare) files from the GP2040 site - after flashing the key combo to reset in to web config mode is the far right bottom bottom with up and down. press and hold them [babonk, babank - windows disconnects/reconnects it] go to 192.168.7.1 in a browser. on the GPIO keys set up page there's an option at the bottom, pick that anbd press each key it asks and tell it to stop when you run out of buttons. Bit confusing as it says 's1, b1, etc etc' 
 
 do as yer look - as per my label on the board i've done the same RT-LT layout as all fight controllers i've had, it just made sense to keep it familiar. you do you though:
+
+
+![GPKEYS](https://github.com/user-attachments/assets/ab987066-5611-4057-a0a4-4155cb4f3939)
+
+
 
 hit save, hit restart, then your key combo for web config is start-x-y from this point on. if you do edit the pcb keep this in mind that gp01,10 and 11 is that combo
 
