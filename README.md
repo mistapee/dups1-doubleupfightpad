@@ -44,9 +44,12 @@ any option can be added pretty quickly for your own design, but they keys i had 
 
 most of my bought devices use a plastic plate which would add to the design and could secure the keys, the CNC/laser i ordered second hand got damaged being sent to me and i realised really cutting away at plastic isn't particularly good so i settled on 3D printing a mould which i would then cast clear resin plates. the mould goes up to the point shown in pics, easily achieved in most 3d printing apps with use of a mould mode, negative mode, set the item within a larger shape and select 'hole' in something like tinkercad.
 
+<img width="715" height="823" alt="dup1_mould_idea" src="https://github.com/user-attachments/assets/acea0c02-1873-40f2-b5a5-a713d2db4800" />
+
 the GPIO i chose was in part to leave available plenty of easy options for the students to customise, stick in tactile switches etc. but personally I've never used any of the other keys and they've never worked for me anyway due to my OS set up. the most likely addition for students would be a bunch of LEDs added straight from a strip and set in to whatever case set up they decide on.
 
-<images and stuff here soon>
+![dups1template](https://github.com/user-attachments/assets/c6938931-6e3f-4430-b0ce-6c42e6ab751c)
+
 
 using the template personalising and playing at design can be made a task that fits in to lesson time and printed out. that gets places on the pcb, the resin sheet goes on top, and fitting the keys secures the resin sheet and the design in place. badabing.
 
