@@ -1,7 +1,7 @@
 
 ![dupphoto](https://github.com/user-attachments/assets/c11952a8-6f6c-47e8-bff8-19224cbe2f9d)
 
-the bapzDUPone - very easy DIY, less than £8 all-in (if you're a fellow brit i've probably got 5+ spare of each controller project on hand to get rid of)
+the bapzDUPone - 1) Info on board as supplied 2) Fresh flashing info/Ordering your own PCBs and building
 
 
 
@@ -10,12 +10,36 @@ the bapzDUPone - very easy DIY, less than £8 all-in (if you're a fellow brit i'
 WASD pad, with additional A to the right of the WASD (where some fight pads have jump). i wanted both not one or the other.
 no turbo, no custom set ups, turn up and throw down.
 
-tldr; upload gerber to pcb fab leave everything on default. silkscreen whatever colouur or just off. using the cheapest China shipping still arrived to the UK in just over a week, and somewhere like JLCPCB it's worth increasing the quantity to get more for the same money. 
+1) You will recieve it flashed and ready
+
+GPIO's used
+0 - start
+1 - ak (lt)
+2 - ap (lb)
+3 - hk (rt)
+4 - hp (rb)
+5 - mk (b)
+6 - mp (y)
+7 - lk (a)
+8 - lp (x)
+9 - right
+10 - down
+11 - up
+12 - select
+13 - left
+
+Gnd pin connected with trace from left and right
+
+left side of rp2040zero's gpio are free, and gpio found on other side of the rp2040 are free.
+
+
+2) Ordering your own, flashing from fresh
+upload gerber to pcb fab leave everything on default. silkscreen whatever colouur or just off. using the cheapest China shipping still arrived to the UK in just over a week, and somewhere like JLCPCB it's worth increasing the quantity to get more for the same money. 
 a new customer on some services (like AllPCB) can get 20 of these PCBs and sent with FedEx on offer for about £2 all-in, play the game and show them some real business at some point too. 
 
-GP2040-CE Firmware: use the RP2040 Zero (Waveshare) files from the GP2040 site - after flashing the key combo to reset in to web config mode is the far right bottom bottom with up and down. press and hold them [babonk, babank - windows disconnects/reconnects it] go to 192.168.7.1 in a browser. on the GPIO keys set up page there's an option at the bottom, pick that anbd press each key it asks and tell it to stop when you run out of buttons. Bit confusing as it says 's1, b1, etc etc' 
+GP2040-CE Firmware: use the RP2040 Zero (Waveshare) files from the GP2040-CE site - after flashing the key combo to reset in to web config mode is the far right bottom bottom with up and down. press and hold them [babonk, babank - windows disconnects/reconnects it] go to 192.168.7.1 in a browser. on the GPIO keys set up page there's an option at the bottom, pick that anbd press each key it asks and tell it to stop when you run out of buttons. Bit confusing as it says 's1, b1, etc etc' 
 
-do as yer look - as per my label on the board i've done the same RT-LT layout as all fight controllers i've had, it just made sense to keep it familiar. you do you though:
+do as so - as per the label on the board we've done the same RT-LT layout as all fight controllers, it just made sense to keep it familiar. you do you though:
 
 
 ![GPKEYS](https://github.com/user-attachments/assets/ab987066-5611-4057-a0a4-4155cb4f3939)
@@ -24,7 +48,7 @@ do as yer look - as per my label on the board i've done the same RT-LT layout as
 
 hit save, hit restart, then your key combo for web config is start-x-y from this point on. if you do edit the pcb keep this in mind that gp01,10 and 11 is that combo
 
-PCB files? my files are a mess and may get sorted, and schools using chromebooks and online services makes things interesting. Kicad's Gerber viewer can send to PCB editor - a common edit would likely be the silkscreen - Kicad will let you import a dxf in the PCB editor but if that's already a bit confusing use EasyEda online, import your image and set it to top or bottom silkscreen layer as required. ... it's 15 switches with a via near the zero for the extra up. thanks to projects like GP2040-CE these things are all possible with barely any effort.
+While we haven't yet put up the parts of the PCB files for you to maake specific edits, Kicad's Gerber viewer can send to PCB editor - a common edit would likely be the silkscreen - Kicad will let you import a dxf in the PCB editor but if that's already a bit confusing use EasyEda online, import your image and set it to top or bottom silkscreen layer as required. ... it's 15 switches with a via near the zero for the extra up. thanks to projects like GP2040-CE these things are all possible with barely any effort.
 
 i did however put quite a lot of time testing layouts as most other designs i found online made my wrists or fingers sore quite quickly and i am getting old, or possibly a worse crime, would spend good money on doing the job right then 3D print some tat to put on their lovely work. i tested low profile keys. and over did it with some LED versions. a lot of decisions made. at the very least there should be a plastic plate that sits on top of the PCB. we didn't even finish the handful of these in use, soldering them up to test they've stayed like this and no one cares as they function well for the purpose. i would like to figure out how to cut the stalk sleeve inside the cap as currently there's approx 5mm above the stalk, if the stalk reached the top of the sleeve the cap itself would sit that bit lower. the single pcb is perfectly solid enough.
 
@@ -42,7 +66,6 @@ i had a lot of Gateron Milky MX style keys that were taking up space, bags of 1U
 this happened to make a good project starter and after introducing the students to marvel vs capcom 2 on the dreamcast a few years ago i knew i had something that could work
 ------
 
-there's no drill holes/plate/case? uwotm8
 
 i don't like 3D printing for a final piece on the whole anyway, there are a number of DIY looking devices on AliExpress that reassures me it's best avoided. other projects that will be up here at some point do use plates (a pcb with cut outs for the keys)
 any option can be added pretty quickly for your own design, but they keys i had ot use up were 5pn which unlike 3 pin i consider to be PCB mount. having tried it they are perfectly sturdy.
