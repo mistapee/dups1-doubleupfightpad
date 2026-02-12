@@ -33,7 +33,8 @@ Gnd pin connected with trace from left and right
 left side of rp2040zero's gpio are free, and gpio found on other side of the rp2040 are free.
 
 
-2) Ordering your own, flashing from fresh
+2) Ordering your own, flashing from fresh.
+   
 upload gerber to pcb fab leave everything on default. silkscreen whatever colouur or just off. using the cheapest China shipping still arrived to the UK in just over a week, and somewhere like JLCPCB it's worth increasing the quantity to get more for the same money. 
 a new customer on some services (like AllPCB) can get 20 of these PCBs and sent with FedEx on offer for about £2 all-in, play the game and show them some real business at some point too. 
 
