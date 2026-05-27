@@ -11,3 +11,6 @@ Among the many motivations way back when was seeing the madness of people's expe
 Firmware setup is very easy, but even better the restore file works on this one and you can find it above.
 
 <img width="1600" height="1200" alt="i6i8ii7" src="https://github.com/user-attachments/assets/f492e3d4-74f4-4270-ad1f-2d8c1a30223c" />
+
+
+You can buy cheap from OpenRhythmUK on Ebay (https://www.ebay.com/sch/i.html?_ssn=openrhythmuk) as usual. As much as the international shipping fee can be (realistically you still couldn't find cheaper) I am more than reasonable and a lot make contact about creating a bundle for them where not only do I discount everything, usually adding 2 or 3 more controllers doesn't change the shipping fee. I've given away a lot of bonus items for my own entertainment
